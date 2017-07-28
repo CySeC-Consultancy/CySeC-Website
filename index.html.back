@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>CySeC-Consultancy</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="/CSS/w3.css">
+	<link rel="stylesheet" href="/CSS/Custom.css">
+</head>
+
+<!-- This is the top menu -->
+<body id="LandingPage">
+<div class="w3-top w3-opacity-min">
+	<ul class="w3-navbar w3-center w3-large w3-black">
+	  <li class="w3-hide-medium w3-hide-large w3-black w3-opennav w3-right">
+		<a href="javascript:void(0);" onclick="myFunction()">☰</a>
+	  </li>
+	  <li style="width:20%" ><a href="#">HOME</a></li>
+	  <li class="w3-hide-small" style="width:20%"><a href="#Diensten">DIENSTEN</a></li>
+	  <li class="w3-hide-small" style="width:20%"><a href="#Aanpak">AANPAK</a></li>
+	  <li class="w3-hide-small" style="width:20%"><a href="#Team">TEAM</a></li>
+	  <li class="w3-hide-small" style="width:20%"><a href="#Contact">CONTACT</a></li
+	</ul>
+	<div id="smallMenu" class="w3-hide w3-hide-large w3-hide-medium">
+	  <ul class="w3-navbar w3-large w3-black">
+		<li><a href="#Diensten">DIENSTEN</a></li>
+		<li><a href="#Aanpak">AANPAK</a></li>
+		<li><a href="#Team">TEAM</a></li>
+		<li><a href="#Contact">CONTACT</a></li>
+	  </ul>
+	</div>
+</div>
+<script>
+function myFunction() {
+    var x = document.getElementById("smallMenu");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+<!--Menu end hear -->
+
+
+<!-- Header with cysec logo goes here. The 50px margin-top helps to split off from the menu-->
+<div class="w3-display w3-card-4 w3-center w3-bottombar w3-topbar w3-border-CyRed" style="margin-top:42px">
+	<img src="images/CySeCLogo.png" alt="CySeC Logo" style="max-width:300px" class="w3-padding-8">
+</div>	
+<!-- End Header -->
+
+<!-- First section: Introduction -->
+<div class="w3-row w3-card-4 w3-bottombar w3-topbar w3-border-CyRed w3-margin-top" style="background-color:#aa0a27; margin:5px;" id="Intro">
+	<div class="w3-half w3-container w3-padding-tiny">
+		<img src="images/confidential.jpg" style="width:100%;">
+	</div>
+	
+	<div class="w3-half w3-container w3-text-white" style="background-color:#aa0a27">
+		<h1> Waar staat CySeC voor: </h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget pretium tortor, sed efficitur orci. Etiam suscipit id lorem id pulvinar. 
+		Maecenas sit amet posuere purus. Cras eget ipsum blandit, sollicitudin purus in, sagittis leo. Vivamus tincidunt aliquet lorem posuere mollis. 
+		Maecenas pharetra mattis lacus, at laoreet lectus ultricies sed. Donec ac tristique risus. Praesent in pellentesque massa. In dignissim urna eget finibus consectetur. 
+		Aenean luctus euismod justo, non consectetur massa malesuada vel. 
+		Suspendisse urna eros, lobortis eget maximus ut, molestie vitae nisi. Aenean a ante leo.<p>
+	</div>
+</div>
+<!-- End First Section -->	
+
+<!-- First Contect Section -->
+<div class="w3-row w3-card-4 w3-bottombar w3-topbar w3-border-CyRed w3-margin-top w3-margin-bottom" id="Diensten">
+	<div class="w3-container">
+		<div class="w3-card-4 w3-margin-top w3-margin-bottom">
+			<header class="w3-container">
+				<h1>Diensten</h1>
+			</header>
+		</div>
+	</div>
+</div>
+
+<div class="w3-row w3-card-4 w3-bottombar w3-topbar w3-border-CyRed w3-margin-top w3-margin-bottom" id="Aanpak">
+	<div class="w3-container">
+		<div class="w3-card-4 w3-margin-top w3-margin-bottom">
+			<header class="w3-container">
+				<h1>Aanpak</h1>
+			</header>
+		</div>
+	</div>
+</div>
+<!-- End Content Section -->
+
+<!-- Team Section -->
+<div class="w3-row w3-card-4 w3-bottombar w3-topbar w3-border-CyRed w3-margin-top" style="background-color:#aa0a27; margin:5px;" id="Team">
+	<div class="w3-half w3-container w3-center">
+		<div class="w3-container">
+			<div class="w3-display-container w3-round w3-card-8 w3-margin w3-white">
+				<img src="images/jeff_face.jpg" class="w3-circle" style="width:30%;background-color:white">
+				<div><button class="w3-text-white w3-btn-block w3-hover-white" style="background-color:#aa0a27" onclick="document.getElementById('id01').style.display='block'">Jeffrey Varkevisser</button>
+				</div>
+				<div id="id01" class="w3-modal w3-animate-zoom">
+					<!-- Modal:jeff -->
+					<div class="w3-modal-content w3-card-8">
+						<header class="w3-container w3-text-white" style="background-color:#aa0a27"> 
+							<span onclick="document.getElementById('id01').style.display='none'" 
+							class="w3-closebtn">&times;</span>
+							<h2>Jeffrey Varkevisser</h2>
+						</header>
+						
+					<div class="w3-container">
+						<img src="images/jeff_full.jpg" class="w3-image" style="width:30%" >
+					</div>
+						<footer class="w3-container w3-text-white" style="background-color:#aa0a27">
+							<p>Over Jeffrey</p>
+							<div class="w3-small w3-border-bottom w3-padding-bottom ">Jeffrey Varkevisser houdt zich als gedreven informatiebeveiliger graag bezig met de management kant van het beveiligen. 
+							Onderdelen als continuïteitsmanagement, crisismanagement, disaster recovery en risicomanagement, alsmede het opstellen van beleidsdocumenten zijn zaken waar hij ervaring mee heeft. 
+							Dit alles wordt gedaan met een oog voor detail, waarbij naast de wensen van de klant ook rekening gehouden wordt met de mening van de medewerkers op operationeel niveau. 
+							Immers hebben beleidsstukken en beveiligingsmaatregelen de hoogste kans van slagen als de medewerkers die ermee aan de slag moeten erachter staan.
+							</div>
+							<div class="w3-layout-container w3-margin-top w3-margin-bottom">
+								<div class="w3-container w3-layout-col">
+									<img src="social/mail.png"> 
+									<p class="w3-text-white w3-small">J.varkevisser@cysec-consultancy.nl</p>
+								</div>
+								<div class="w3-container w3-layout-col">
+									<img src="social/phone.png">
+									<p class="w3-text-white w3-small">(+31)6-41735354</p>
+								</div>
+								<div class="w3-container w3-layout-col" >
+									<img src="social/linkedin.png">
+									<p class="w3-text-white w3-small">www.linkedin.com/in/jvarkevisser</p>
+								</div>
+							</div>
+						</footer>
+					</div>
+					<!-- End Modal:Jeff -->
+				</div>
+			</div>
+			 
+			<div class="w3-display-container w3-round w3-card-8 w3-center w3-margin w3-white">
+				<img src="images/john_face.jpg" class="w3-circle" style="width:30%">
+				<div><button class="w3-text-white w3-btn-block w3-hover-white" style="background-color:#aa0a27" onclick="document.getElementById('id02').style.display='block'"> John pandt</button>
+				</div>
+				<div id="id02" class="w3-modal w3-animate-zoom">
+					<!-- Modal:John -->
+					<div class="w3-modal-content w3-card-8">
+						<header class="w3-container w3-text-white" style="background-color:#aa0a27"> 
+							<span onclick="document.getElementById('id02').style.display='none'" 
+							class="w3-closebtn">&times;</span>
+							<h2>John Pandt</h2>
+						</header>
+						
+					<div class="w3-container">
+						<img src="images/john_full.jpg" class="w3-image" style="width:30%" >
+					</div>
+						<footer class="w3-container w3-text-white" style="background-color:#aa0a27">
+							<p>Over John</p>
+						</footer>
+					</div>
+					<!-- End Modal:John -->
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="w3-half w3-container w3-padding-tiny">
+		<img src="images/partners.jpg" style="width:100%">
+	</div>
+</div>
+<!-- End Team -->
+
+	
+<!-- Contact form & Map -->	
+	<div class="w3-row w3-card-4 w3-bottombar w3-topbar w3-border-CyRed w3-margin-top w3-margin-bottom" id="Contact">
+		<div class=" w3-half w3-container">
+			<div class="w3-card-4 w3-margin-top w3-margin-bottom">
+				<header class="w3-container">
+					<h1>Contact:</h1>
+					<div><p><strong>Email:</strong> Info@cysec-consultancy.nl</p><p><strong>Website:</strong> www.CySeC-consultancy.nl</p>
+<p><strong>Telefoon:</strong> 0641735354 of 0681776153 </p> <p> <strong>Post: </strong> Pasteurstraat 202, 2522 RR Den Haag </p> <p> <strong>Bezoekadres:</strong> Bleiswijkseweg 37, 2712 PB Zoetermeer</p>
+</div>
+				</header>
+			</div>
+		</div>
+		<div class="w3-half w3-container">
+			<div class="w3-card-4 w3-margin-top w3-margin-bottom">
+				<header class="w3-container">
+			
+					</div>
+				</header>
+			</div>
+		</div>
+	</div>
+<!-- Menu end hear -->	
+
+</body>

@@ -1,0 +1,355 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+    <title>CySeC-Consultancy</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/CSS/w3.css">
+	<link rel="icon" type="image/png" href="/CySeC_icon.png">
+</head>
+
+<!-- This is the top menu -->
+<body id="LandingPage">
+    <div class="w3-top w3-opacity-min">
+        <ul class="w3-navbar w3-center w3-large w3-black">
+            <li class="w3-hide-medium w3-hide-large w3-black w3-opennav w3-right">
+                <a href="javascript:void(0);" onclick="myFunction()">☰</a>
+            </li>
+            <li style="width:20%"><a href="#">HOME</a></li>
+            <li class="w3-hide-small" style="width:20%"><a href="#Dienst">DIENSTEN</a></li>
+            <li class="w3-hide-small" style="width:20%"><a href="#Aanpak">AANPAK</a></li>
+            <li class="w3-hide-small" style="width:20%"><a href="#Team">TEAM</a></li>
+            <li class="w3-hide-small" style="width:20%"><a href="#Contact">CONTACT</a></li>
+        </ul>
+        <div id="smallMenu" class="w3-hide w3-hide-large w3-hide-medium">
+            <ul class="w3-navbar w3-large w3-black">
+                <li><a href="#Diensten">DIENSTEN</a></li>
+                <li><a href="#Aanpak">AANPAK</a></li>
+                <li><a href="#Team">TEAM</a></li>
+                <li><a href="#Contact">CONTACT</a></li>
+            </ul>
+        </div>
+    </div>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("smallMenu");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+    </script>
+    <!--Menu ends hear -->
+    
+	<!-- Header with cysec logo goes here. The 42px margin-top helps to split off from the menu-->
+    <div class="w3-display w3-card-4 w3-center w3-bottombar w3-topbar w3-border-CyRed" style="margin-top:42px">
+        <img src="images/CySeCLogo.png" alt="CySeC Logo" style="max-width:300px;" class="w3-padding-8 w3-animate-zoom">
+    </div>
+    <!-- End Header -->
+
+    <!-- First section: Introduction -->
+    <div class="w3-row w3-card-4 w3-bottombar w3-red w3-topbar w3-border-CyRed w3-margin-top" style="margin:5px;" id="Intro">
+        <div class="w3-half w3-container w3-padding-tiny w3-center">
+            <img src="images/InfoSecV2.jpg" class="w3-card-8" style="width:100%;"> <!--Auteursrecht: <a href='http://nl.123rf.com/profile_photonphoto'>photonphoto / 123RF Stockfoto</a>-->
+        </div>
+
+        <div class="w3-half w3-container w3-red w3-text-white w3-text-shadow w3-slim">
+            <h3> Waar staat CySeC voor: </h3>
+            <p>
+                Er wordt steeds meer van midden en kleine bedrijven verwacht op het gebied van wet- en regelgeving met betrekking tot informatiebeveiliging (IB) en bedrijfscontinuïteit (BC).
+                CySeC ondersteunt ondernemers in het MKB bij het opstellen en implementeren van deze maatregelen. Ons doel is simpel: "de ondernemer laten doen waar hij of zij goed in is, ondernemen".
+                Wij ontzorgen de onderneming op het gebied van informatiebeveiliging en bedrijfscontinuïteit zodat uw bedrijf gezond kan groeien.
+            </p>
+            <p>
+                <strong>Cyber Security & Continuïty Consultancy.</strong> Dat is de volledige naam van CySeC. Onze naam verraadt dan ook waar de focus op ligt: informatiebeveiliging en bedrijfscontinuïteit.
+                CySeC is een consultancyfirma die zich richt op het midden- en kleinbedrijf.
+                Wij bieden onze klanten op maat gemaakte oplossingen op het gebied van informatiebeveiliging en bedrijfscontinuïteit tegen een eerlijke prijs.
+            <p>
+        </div>
+    </div>
+    <!-- End First Section -->
+	
+    <!-- Contect Section: Diensten/Prijzen/Aanpak -->
+    <div id="Dienst" class="w3-row w3-card-4 w3-bottombar w3-topbar w3-border-CyRed w3-margin-top w3-margin-bottom" >
+            <div class="w3-container">
+				<div class="w3-margin-top w3-margin-bottom">
+					<ul class="w3-navbar ">
+						<li><a href="javascript:void(0)" class="tablink w3-red w3-border-bottom w3-border-CyRed" onclick="openContent(event, 'Diensten');">Diensten</a></li>
+						<li><a href="javascript:void(0)" class="tablink w3-border-bottom w3-border-CyRed" onclick="openContent(event, 'Prijs');">Prijzen</a></li>
+					</ul>
+					<div id="Diensten" class="w3-row w3-card-4 w3-container w3-padding-16 content w3-slim">
+						<div class="w3-layout-container w3-center">
+							<div class="w3-container w3-card w3-padding-top w3-layout-col w3-border-CyRed" style="width:50%">
+								<div><img class="w3-image" src="social/Risk management.png " style="width:15%; max-width:75px;  max-height:75px;"></div>
+								<div><h3>Risk management</h3></div>
+								<div class="w3-left-align w3-padding-bottom">
+									Bij ondernemen komen risico’s kijken, dat is een feit van het leven. Sommige risico’s zijn duidelijk, tegen anderen bent u wellicht verzekerd.
+									Informatie- en bedrijfsprocessen brengen ook risico’s met zich mee.
+									CySeC kan uw organisatie helpen om deze risico’s in kaart te brengen, waar nodig implementeren we maatregelen om het risico te verminderen.
+									Hierbij staat de wens van de klant uiteraard centraal, waardoor u er zeker van bent dat u niet met onnodige kosten zit.
+								</div>
+							</div>
+							<div class="w3-container w3-card w3-padding-top w3-layout-col w3-border-CyRed style="width:50%">
+								<div><img class="w3-image" src="social/ISO1.png" style="width:15%;max-width:75px;  max-height:75px;"></div>
+								<div><h3>ISO:27001 trajecten</h3></div>
+								<div class="w3-left-align w3-padding-bottom">
+									Bij een ISO 27001 begeleidingstraject helpt CySeC van begin tot eind met de certificering. 
+									Er wordt een inventarisatie gemaakt van waar het bedrijf nu staat, er worden plannen opgesteld en uitgevoerd om de benodigde verbeteringen door te voeren en uiteindelijk wordt het bedrijf door deze acties op een certificeerbaar niveau gebracht. 
+									Aan het einde van het traject wordt er door een externe firma een audit uitgevoerd en krijgt uw onderneming als alles in orde is haar ISO 27001 certificaat. 
+									De consultants van CySeC zijn gecertificeerd als Certified Practioner ISO: 27001:2013 en hebben dus de benodigde kennis in huis om uw organisatie te assisteren bij een ISO 27001 vraagstuk.
+								</div>
+							</div>
+						</div>
+						<div class="w3-layout-container w3-center">
+							<div class="w3-container w3-card w3-padding-top w3-layout-col w3-border-CyRed" style="width:50%">
+								<div><img class="w3-image" src="social/Impact.png" style="width:15%; max-width:75px;  max-height:75px;"></div>
+								<div><h3>Impact Analyse</h3></div>
+								<div class="w3-left-align w3-padding-bottom">
+									Vaak denken bedrijven de gevolgen van een crisis wel te weten, het kost geld en vaak klanten. Maar hoeveel geld en klanten kost een dag lange uitval van een webshop?
+									Hoe groot worden deze aantallen na een week? Waar trekken we de grens?
+									Impact analyses kijken naar de impact van een verstoring. Wat gebeurt er precies als uw bedrijfsvoering verstoort raakt?
+									CySeC voert deze analyse uit en levert een duidelijke rapportage op die u helder inzicht geeft in wat de gevolgen van een verstoring zijn.
+								</div>
+							</div>
+							<div class="w3-container w3-card w3-padding-top w3-layout-col w3-border-CyRed" style="width:50%">
+								<div><img class="w3-image" src="social/Simulation1.png" style="width:15%; max-width:75px;  max-height:75px;"></div>
+								<div><h3>Crisis Management Simulations</h3></div>
+								<div class="w3-left-align w3-padding-bottom">
+									Soms gebeuren er, ondanks de maatregelen die een bedrijf neemt, dingen die de dagelijkse business verstoren. Denk hierbij aan een grote stroomstoring, een server die crasht of een bedrijfspand dat onder loopt.
+									Bij crisismanagement worden er actieplannen opgesteld die helpen een crisis te beheersen en de business weer operationeel te krijgen. Een Crisis Management Simulatie (CMS) is bedoeld om deze plannen te testen.
+									Deze oefeningen zijn tweeledig; aan de ene kant zijn ze heel bruikbaar om erachter te komen of er dingen in het plan ontbreken of niet (meer) kloppen.
+									Anderzijds zorgt regelmatig oefening ervoor dat het crisis management team gewend raakt aan hoe te handelen tijdens een crisis.
+								</div>
+							</div>
+						</div>
+					</div>
+				
+                <div id="Prijs" class="w3-row w3-card-4 w3-container content w3-center w3-padding-16 w3-slim" style="display:none">
+                    <div class="w3-layout-container">
+                        <div class="w3-container w3-card w3-layout-col w3-border-CyRed" style="width:50%">
+                            <div><img class="w3-image" src="social/Hourly.png" style="width:15%; max-width:75px;  max-height:75px;"></div>
+                            <h3>Uur tarief</h3>
+                            <div>Het uurtarief van onze consultants ligt op €75,- per persoon per uur. </div>
+                        </div>
+                        <div class="w3-container w3-card w3-layout-col w3-border-CyRed w3-padding-bottom" style="width:50%">
+                            <div><img class="w3-image" src="social/Project.png" style="width:15%; max-width:75px;  max-height:75px;"></div>
+                            <h3>Project tarief</h3>
+                            <div>
+                                Projecttarieven zijn afhankelijk van de grootte van het project. U kunt vrijblijvend en kosteloos een offerte aanvragen of een afspraak maken om uw project te bespreken.
+                                Aan de hand van deze gegevens bepalen wij een projecttarief. De voordelen hiervan is dat de kosten voor u vooraf duidelijk zijn en in termijnen voldaan kunnen worden.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+			<a class="w3-btn-block w3-red w3-small w3-hover-opacity w3-margin-bottom w3-text-shadow" href="AV.html">Klik hier om onze algemene voorwaarden te lezen.</a>
+        </div>
+	</div>	
+        <script>
+            function openContent(evt, cityName) {
+                var i, x, tablinks;
+                x = document.getElementsByClassName("content");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                tablinks = document.getElementsByClassName("tablink");
+                for (i = 0; i < x.length; i++) {
+                    tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
+                }
+                document.getElementById(cityName).style.display = "block";
+                evt.currentTarget.className += " w3-red";
+            }
+        </script>
+
+    <div class="w3-row w3-card-4 w3-bottombar w3-topbar w3-border-CyRed w3-margin-top w3-margin-bottom" id="Aanpak">
+        <div class="w3-container w3-margin-bottom">
+		<header class="w3-container w3-center">
+                    <h1>Aanpak</h1>
+                </header>
+			<div class="w3-container w3-card-4">
+            <div class="w3-card w3-margin-top w3-margin-bottom w3-slim">
+			<div class="w3-layout-container w3-center">
+                        <div class="w3-container w3-card w3-padding-top w3-layout-col w3-border-CyRed" style="width:50%">
+                            <div><img class="w3-image" src="social/Klantrelatie.png" style="width:15%; max-width:75px;  max-height:75px;"></div>
+							<div><h3>Klantrelatie</h3></div>
+							<div class="w3-left-align w3-padding-bottom">
+                                CySec waarborgt de kwaliteit van haar diensten op twee manieren. 
+								Ten eerste is er een nauwe samenwerking met de klant waardoor de wensen van de klant goed in beeld komen. 
+								Ten tweede wordt er altijd een evaluatiemoment met de klant ingepland waar het gehele adviesproces geëvalueerd wordt om mogelijke verbeterpunten in kaart te brengen. 
+								Persoonlijk contact is dan ook één van onze speerpunten. Daarnaast hechten wij veel waarde aan het feit dat de zaken ook voor niet-informatiebeveiligers duidelijk zijn.
+								Wij leggen wanneer u dat wenst precies uit wat welke werkzaamheden er precies uitgevoerd worden en waarom we dat doen, in duidelijke taal.
+                           </div>
+                     </div>
+            </div>
+			
+		 <div class="w3-layout-container w3-center">
+                        <div class="w3-container w3-card w3-padding-top w3-layout-col w3-border-CyRed" style="width:50%">
+                            <div><img class="w3-image" src="social/Op_maat.png" style="width:15%; max-width:75px;  max-height:75px;"></div>
+                            <div><h3>Custom made</h3></div>
+                            <div class="w3-left-align w3-padding-bottom">
+                                De diensten en oplossingen van CySeC zijn toe te passen op veel bedrijven. 
+								Echter is elke oplossing toch verschillend. Wij kijken namelijk naar wat uw bedrijf nu nodig heeft en zorgen dat de oplossing hierbij aansluit. 
+								Het voordeel van dit maatwerk is dat u niet teveel betaald voor zaken die u wellicht (nog) niet nodig heeft.
+                            </div>
+                        </div>
+                        <div class="w3-container w3-card w3-padding-top w3-layout-col w3-border-CyRed" style="width:50%">
+                            <div><img class="w3-image" src="social/Improvement.png" style="width:15%; max-width:75px;  max-height:75px;"></div>
+                            <div><h3>Continuous Improvement</h3></div>
+                            <div class="w3-left-align w3-padding-bottom">
+                                CySeC hanteert in haar oplossingen een Plan – Do – Check – Act cyclus, ook wel de kwaliteitscirkel van Deming genoemd Deze cyclus zorgt ervoor dat de geïmplementeerde maatregelen met regelmaat intern beoordeeld worden en waar nodig aangepast. 
+								Het voordeel van deze cyclus is dat de maatregelen die u bedrijf genomen heeft gecontroleerd worden. Hierdoor kunt u bijvoorbeeld tijdig ingrijpen als een maatregel niet meer voldoet.
+                            </div>
+                        </div>
+                    </div>
+				</div>
+			</div>
+		</div>
+	</div>
+    <!-- End Contect Section:Diensten/Prijzen/Aanpak -->
+    <!-- Team Section -->
+    <div class="w3-row w3-red w3-card-4 w3-bottombar w3-topbar w3-border-CyRed w3-margin-top w3-text-shadow w3-slim" style="margin:5px;" id="Team">
+        <div class="w3-half w3-container w3-padding-tiny">
+            <img src="images/Partners_team.jpg" class="w3-card-8" style="width:100%">
+            <p class="w3-text-white w3-padding-tiny">
+                Het team van CySeC Consultancy bestaat uit gedreven, energieke en leerzuchtige consultants. Onze consultants hebben een achtergrond met informatiebeveiliging en hebben de studie HBO Information Security Management gevolgd.
+				De consultants van CySeC houden altijd rekening met de wensen van de klant. Er wordt geluisterd naar wat u wilt voor uw onderneming en wij communiceren helder met u over welke werkzaamheden er verricht worden en waarom. 
+				Bent u geen expert op het gebied van informatiebeveiliging en/of bedrijfscontinuïteit? Dan leggen onze consultants u de werkzaamheden uit in begrijpelijke taal. Zo weet u dat u betaalt voor datgeen wat uw organisatie nodig heeft.
+            </p>
+			<p class="w3-text-white w3-padding-tiny">
+			<strong>Om meer over ons te lezen klik op de individuele gezichten.</strong>
+			</p>
+        </div>
+        <div class="w3-half w3-container w3-center">
+            <div class="w3-display-container" style="margin-top:10%">
+                <div class="w3-display-container w3-round w3-card-8 w3-margin w3-white">
+                    <div class="w3-hover-opacity" style="cursor:pointer" onclick="document.getElementById('id01').style.display='block'">
+						<img src="images/Jeff_face.jpg" class="w3-circle" style="width:30%">
+					</div>
+                    <div>
+                        <button class="w3-text-white w3-btn-block w3-hover-white w3-red" onclick="document.getElementById('id01').style.display='block'">Jeffrey Varkevisser</button>
+                    </div>
+                    <div id="id01" class="w3-modal w3-animate-zoom">
+                        <!-- Modal:jeff -->
+                        <div class="w3-modal-content w3-card-8">
+                            <header class="w3-container w3-red w3-text-white">
+                                <span onclick="document.getElementById('id01').style.display='none'"
+                                      class="w3-closebtn">&times;</span>
+                                <h2>Jeffrey Varkevisser</h2>
+                            </header>
+
+                            <div class="w3-container">
+                                <img src="images/Jeff_full.jpg" class="w3-image" style="width:30%;">
+                            </div>
+                            <footer class="w3-container w3-red w3-text-white">
+                                <p>Over Jeffrey:</p>
+                                <div class="w3-small w3-border-bottom w3-padding-bottom ">
+                                    Jeffrey Varkevisser houdt zich als gedreven informatiebeveiliger graag bezig met de management kant van het beveiligen.
+                                    Onderdelen als continuïteitsmanagement, crisismanagement, disaster recovery en risicomanagement, alsmede het opstellen van beleidsdocumenten zijn zaken waar hij ervaring mee heeft.
+                                    Dit alles wordt gedaan met een oog voor detail, waarbij naast de wensen van de klant ook rekening gehouden wordt met de mening van de medewerkers op operationeel niveau.
+                                    Immers hebben beleidsstukken en beveiligingsmaatregelen de hoogste kans van slagen als de medewerkers die ermee aan de slag moeten erachter staan.
+                                </div>
+                                <div class="w3-layout-container w3-margin-top w3-margin-bottom">
+                                    <div class="w3-container w3-layout-col">
+                                        <img src="social/Mail.png">
+                                        <p class="w3-text-white w3-small">J.varkevisser@cysec-consultancy.nl</p>
+                                    </div>
+                                    <div class="w3-container w3-layout-col">
+                                        <img src="social/Phone.png">
+                                        <p class="w3-text-white w3-small">(+31)6-41735354</p>
+                                    </div>
+                                    <div class="w3-container w3-layout-col">
+                                        <img src="social/Linkedin.png">
+                                        <p class="w3-text-white w3-small">www.linkedin.com/in/jvarkevisser</p>
+                                    </div>
+                                </div>
+                            </footer>
+                        </div>
+                        <!-- End Modal:Jeff -->
+                    </div>
+                </div>
+
+                <div class="w3-display-container w3-round w3-card-8 w3-center w3-margin w3-white">
+                    <div class="w3-hover-opacity" style="cursor:pointer" onclick="document.getElementById('id02').style.display='block'">
+					<img src="images/John_face.jpg" class="w3-circle" style="width:30%">
+                    </div>
+					<div>
+                        <button class="w3-text-white w3-btn-block w3-red w3-hover-white" onclick="document.getElementById('id02').style.display='block'"> John Pandt</button>
+                    </div>
+					
+                    <div id="id02" class="w3-modal w3-animate-zoom">
+                        <!-- Modal:John -->
+                        <div class="w3-modal-content w3-card-8">
+                            <header class="w3-container w3-red w3-text-white">
+                                <span onclick="document.getElementById('id02').style.display='none'"
+                                      class="w3-closebtn">&times;</span>
+                                <h2>John Pandt</h2>
+                            </header>
+
+                            <div class="w3-container">
+                                <img src="images/John_full_v2.jpg" class="w3-image" style="width:30%">
+                            </div>
+                            <footer class="w3-container w3-red w3-text-white">
+                                <p>Over John:</p>
+                                <div class="w3-small w3-border-bottom w3-padding-bottom ">
+                                    <p>Professioneel, hardwerkend en pragmatisch zijn  termen om John te beschrijven. 
+									Met een sterke drijfveer om klanten te helpen en een ruim inzicht in het veld van zowel riskmanagement als cybersecurity, versterkt John het team van CySeC consultancy. 
+									Als het betreft het in kaart brengen van het risicoprofiel van een organisatie of het bedenken van beveiligingsoplossingen voor systemen, voelt John zich als een vis in zee.</P>
+									<br><strong>“Security is mijn passie en mijn passie deel ik met mijn klanten”</strong> --John Pandt.</br>
+                                </div>
+                                <div class="w3-layout-container w3-margin-top w3-margin-bottom">
+                                    <div class="w3-container w3-layout-col">
+                                        <img src="social/Mail.png">
+                                        <p class="w3-text-white w3-small">J.Pandt@cysec-consultancy.nl</p>
+                                    </div>
+                                    <div class="w3-container w3-layout-col">
+                                        <img src="social/Phone.png">
+                                        <p class="w3-text-white w3-small">(+31)6-81776153</p>
+                                    </div>
+                                    <div class="w3-container w3-layout-col">
+                                        <img src="social/Linkedin.png">
+                                        <p class="w3-text-white w3-small">www.linkedin.com/in/johnpandt</p>
+                                    </div>
+                                </div>
+                            </footer>
+                        </div>
+                        <!-- End Modal:John -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Team -->
+    <!-- Contact form & Map -->
+    <div class="w3-row w3-card-4 w3-bottombar w3-topbar w3-border-CyRed w3-margin-top w3-margin-bottom w3-layout-middle" id="Contact">
+        <div class="w3-container">
+            <div class="w3-margin-top">
+                <header class="w3-container">
+                    <h1>Contact:</h1>
+                    Bent u benieuwd wat wij voor uw organisatie kunnen betekenen of wilt u vrijblijvend kennis maken?
+                    Neem dan via de onderstaande mogelijkheden contact met ons op, dan kijken we onder het genot van een kop koffie wat wij voor u kunnen doen.
+                </header>
+            </div>
+        </div>
+        <div class="w3-container">
+            <div class="w3-margin-bottom">
+                <header class="w3-container">
+                    <div>
+                        <p><strong>Email:</strong> Info@cysec-consultancy.nl</p>
+                        <p><strong>Website:</strong> www.CySeC-consultancy.nl</p>
+                        <p><strong>Telefoon:</strong> (+31)6-41735354 of (+31)6-81776153 </p>
+                        <p> <strong>Post: </strong> Pasteurstraat 202, 2522 RR Den Haag </p>
+                        <p> <strong>Bezoekadres:</strong> Bleiswijkseweg 37, 2712 PB Zoetermeer</p>
+                    </div>
+                </header>
+            </div>
+        </div>
+    </div>
+    <!-- Contact form end here -->
+	<div class="w3-center w3-small w3-slim w3-padding-bottom"> © CySeC-Consultancy VOF 2016-2017 <br>
+	Icons provided by <a href="http://www.picol.org/about.php">Picol.ORG</a> & <a href="http://linhpham.me/miu/">Linhpham.me</a><br>
+	Fotos gemaakt door <a href="http://colorboxdesign.nl">Colorboxdesign.nl</a> & <a href="http://nl.123rf.com/profile_photonphoto">photonphoto</a>
+	</div>
+</body>
+</html>
