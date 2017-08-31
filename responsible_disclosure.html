@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CySeC-Consultancy: Responsible Disclosure Policy</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/CSS/w3.css">
+	<link rel="icon" type="image/png" href="/cysec_icon.png">
+	<!-- Website version 1.5 -->
+	<!-- Responsible Disclosure Policy page version 1.0 -->
+</head>
+
+<!-- This is the top menu -->
+<body id="LandingPage">
+    <div class="w3-top w3-opacity-min">
+        <ul class="w3-navbar w3-center w3-large w3-black">
+            <li class="w3-hide-medium w3-hide-large w3-black w3-opennav w3-right">
+                <a href="javascript:void(0);" onclick="myFunction()">☰</a>
+            </li>
+            <li style="width:20%"><a href="/index.html">HOME</a></li>
+            <li class="w3-hide-small" style="width:20%"><a href="/index.html#Dienst">DIENSTEN</a></li>
+            <li class="w3-hide-small" style="width:20%"><a href="/index.html#Aanpak">AANPAK</a></li>
+            <li class="w3-hide-small" style="width:20%"><a href="/index.html#Team">TEAM</a></li>
+            <li class="w3-hide-small" style="width:20%"><a href="/index.html#Contact">CONTACT</a></li>
+        </ul>
+        <div id="smallMenu" class="w3-hide w3-hide-large w3-hide-medium">
+            <ul class="w3-navbar w3-large w3-black">
+                <li><a href="#Diensten">DIENSTEN</a></li>
+                <li><a href="#Aanpak">AANPAK</a></li>
+                <li><a href="#Team">TEAM</a></li>
+                <li><a href="#Contact">CONTACT</a></li>
+            </ul>
+        </div>
+    </div>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("smallMenu");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+    </script>
+    <!--Menu ends hear -->
+    
+	<!-- Header with cysec logo goes here. The 42px margin-top helps to split off from the menu-->
+    <div class="w3-display w3-card-4 w3-center w3-bottombar w3-topbar w3-border-CyRed" style="margin-top:42px">
+        <img src="images/CySeCLogo.png" alt="CySeC Logo" style="max-width:300px;" class="w3-padding-8 w3-animate-zoom">
+    </div>
+    <!-- End Header -->
+    <!-- Contact form & Map -->
+    <div class="w3-row w3-card-4 w3-bottombar w3-topbar w3-border-CyRed w3-margin-top w3-margin-bottom w3-layout-middle" id="Contact">
+        <div class="w3-container">
+            <div class="w3-center"><h2><b>Responsible Disclosure Policy Cyber Security & Continuïty Consultancy VOF (CySeC Consultancy)</b></h2></div>
+			<div class=" w3-card w3-margin-bottom w3-padding-bottom">
+				<div class="w3-container">
+                    <h3><b>ALGEMEEN</b></h3>
+					<p>
+						Ondanks het feit dat wij een bedrijf zijn dat zich specialiseert in informatiebeveiliging en bedrijfscontinuïteit, kan ook bij ons eens
+						iets niet in orde zijn. Ook onze systemen en website kunnen een zwakke plek hebben (kwetsbaarheden).
+					</p>
+					<p>
+						Als je deze pagina bekijkt, is dat waarschijnlijk omdat je een kwetsbaarheid gevonden hebt of wilt gaan zoeken. Uiteraard willen wij 
+						dit ook graag weten, daarom hebben we dit responsible disclosure beleid opgezet.
+					</p>
+                </div>
+				<div class="w3-container">
+                    <h3><b>Wat vraagt CySeC Consultancy van jou?</b></h3>
+					<p>
+						Allereerst, ga tijdens je test verantwoordelijk om met onze systemen en website(s). Gebruik niet meer dan noodzakelijk is om de 
+						kwetsbaarheid te ontdekken en te kunnen reproduceren. Ook houden we er niet van als onze systemen verstoord raken of beschadigd worden.
+						Dat betekent dus dat we de volgende dingen niet accepteren:
+						<br>
+						•	Het plaatsen van malware.
+						<br>
+						•	Het kopiëren, wijzigen of verwijderen van gegevens in een systeem (een alternatief hiervoor is het maken van een directory listing 
+						van een systeem). 
+						<br>
+						•	Het aanbrengen van veranderingen in het systeem (configuraties).
+						<br>
+						•	Het herhaaldelijk toegang tot het systeem verkrijgen of de toegang delen met anderen.
+						<br>
+						•	Het gebruik maken van het “bruteforce” om toegang tot systemen te verkrijgen. 
+						<br>
+						•	Het gebruik maken van denial-of-service of social engineering.
+						<br>
+						Tot dusver de spelregels vooraf.
+					</p>
+					<p>
+						<strong>Ik heb een kwetsbaarheid gevonden, wat nu?</strong>
+						<br>			
+						•	We horen graag zo snel mogelijk na de ontdekking via de mail van je, dit kan via info@cysec-consultancy.nl
+						<br>
+						•	Graag willen we zelf ook even kijken of we je werk kunnen nadoen, beschrijf dus in je mail welke kwetsbaarheid je gevonden en het 
+						proces die je hiervoor hebt gehanteerd.
+						<br>
+						•	We houden dingen graag tussen jou en ons, deel je bevindingen dus niet met anderen totdat wij de mogelijkheid gehad hebben om 
+						dingen op te lossen. (We proberen kwetsbaarheden zo snel mogelijk aan te pakken)
+						<br>
+						•	Als we je terug kunnen mailen of even kunnen bellen zouden we dat erg tof vinden. Wellicht kunnen we dan eens afspreken voor een 
+						kop koffie en een gesprek over je bevindingen.
+						<br>
+
+                </div>
+				<div class="w3-container">
+                    <h3><b>Wat jij van CySeC Consultancy mag verwachten</b></h3>
+					<p>
+					Wij hechten waarde aan vertrouwen, daarom hebben we deze policy ook. CySeC is van mening dat mensen die zonder kwaadaardige bedoelingen en 
+					zonder bijwerkingen de beveiliging van systemen of websites testen van vitaal belang zijn in het cybersecurity sector. Zodoende mag jij 
+					dus het volgende van ons verwachten:
+					<br>
+					•	Als de bovenstaande procedure gerespecteerd wordt, zullen wij geen juridische stappen ondernemen en je gegevens niet delen met derden. 
+					(Tenzij dit wettelijk verplicht is)
+					<br>
+					•	We nemen binnen uiterlijk 5 werkdagen contact met je op om je bevindingen te evalueren en wanneer wij verwachten het probleem opgelost te hebben.
+					<br>
+					•	Als jij het wil, willen we graag je naam toevoegen aan onze responsible disclosure “hall of fame”, daarnaast stellen we het op prijs als 
+					we betrokken worden bij eventuele publicaties.
+					<br>
+					•	Afhankelijk van de “grootte” van de kwetsbaarheid zijn wij bereid om een beloning te bieden. De vorm van beloning wordt intern door de 
+					Partners bepaald. Uiteraard moet het hierbij wel gaan om een voor ons nog onbekend probleem.
+					<br>
+					•	Indien gewenst houden we contact omtrent de mogelijke oplossingen van het probleem.
+					</p>
+					<p>
+					Zoals eerder aangegeven, vinden wij dit een kwestie van vertrouwen tussen ons als organisatie en jou als melder. Daarom doen wij dus ook geen aangifte als dit protocol gevolgd wordt.
+					De enige uitzonderingen hierop zijn dus als volgt:
+					<br>
+					•	Als wij door een bevoegde autoriteit middels een gerechtelijk bevel mee dienen te werken aan een onderzoek, dan dienen wij ons als 
+					organisatie aan de wet te houden. In een dergelijk geval zijn wij dus, ondanks dit beleid, genoodzaakt om specifieke informatie door te 
+					geven.
+					<br>
+					•	Als dit protocol niet gevolgd wordt en er bijvoorbeeld schade wordt toegebracht of als er gegevens gestolen worden, voelen wij ons 
+					helaas genoodzaakt om aangifte te doen bij de Politie en samen te werken met de autoriteiten om de verantwoordelijke partij op te sporen.
+					</p>
+
+					<strong> Versie 1.0 	Geüpdatet op: 23 – 08 – 2017</strong>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact form end here -->
+	<div class="w3-center w3-small w3-slim"> © Cyber Security & Continuïty Consultancy VOF 2016-2017</div>
+	<div class="w3-row w3-small w3-slim w3-padding-bottom">
+		<div class="w3-col w3-left-align w3-padding-left" style="width:77%">
+			<a href="algemene_voorwaarden.html">Algemene voorwaarden</a><br>
+			<a href="privacyverklaring.html">Privacyverklaring</a><br>
+			<a href="responsible_disclosure.html">Responsible Disclosure Policy</a>
+		</div>
+		<div class="w3-col w3-left-align w3-padding-right" style="width:23%">
+			Icons provided by <a href="http://www.picol.org/about.php">Picol.ORG</a> & <a href="http://linhpham.me/miu/">Linhpham.me</a><br>
+			Fotos gemaakt door <a href="http://colorboxdesign.nl">Colorboxdesign.nl</a> & <a href="http://nl.123rf.com/profile_photonphoto">photonphoto</a>
+		</div>
+	</div>
+</body>
+</html>
